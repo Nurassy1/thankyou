@@ -1,0 +1,123 @@
+body {
+    background-color: #141518;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.owter .box {
+    display: grid;
+    background-color: #232933;
+    width: 300px;
+    height: auto;
+    grid-template-columns: repeat(5,60px);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.owter .star, .button, .header, .info {
+    display: grid;
+    grid-column: 1/6;
+}
+
+.owter .header{
+    color:white;
+    font-size: 24px;
+}
+
+.owter p, span {
+    color: #848d99;
+}
+
+.owter .button {
+    border: none;
+    border-radius: 23px;
+    background-color: #fd7613;
+    height: 32px;
+    padding-top: 13px;
+    width: 290px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.owter span {
+    text-align: center;
+    background-color: #262e38;
+    margin: 10px 0px 15px 0px;
+    height: 35px;
+    border-radius: 50%;
+    width: 30px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.owter .star {
+    background-color: #262e38;
+    margin: 0px 0px 10px 0px;
+    height: 35px;
+    border-radius: 50%;
+    width: 25px;
+    padding-top: 16px;
+    padding-right: 10px;
+    padding-left: 17px;
+}
+
+.owter .info, h1, span, .attribution, .btn {
+    font-family: "Overpass", sans-serif;
+}
+
+.owter .header{
+    margin: 20px 0px 0px 0px;
+}
+
+.owter .info{
+    font-size: 13px;
+}
+
+.owter span:hover{
+    background-color: #fd7613;
+    color: white;
+}
+
+.owter .button:hover{
+    background-color: white;
+}
+
+.inner .box{
+    background-color: #232933;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.inner{
+    text-align: center;
+}
+
+.inner .org{
+    background-color: #262e38;
+    color: #fd7613;
+    padding: 10px;
+    width: 205px;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.inner h1{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 24px;
+}
+
+.inner .info{
+    color: #848d99;
+    font-size: 15px;
+}
